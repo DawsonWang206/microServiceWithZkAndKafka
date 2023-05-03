@@ -1,0 +1,10 @@
+spring:
+  config:
+    import: zookeeper:120.27.193.111:2181
+  application:
+    name: cloud-client1
+
+server:
+  port: 8091
+  servlet:
+    context-path: /client1/api
