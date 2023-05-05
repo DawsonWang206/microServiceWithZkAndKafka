@@ -13,16 +13,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="client1" target="1.8" />
-      <module name="client2" target="1.8" />
-      <module name="cloudDemo" target="1.8" />
-      <module name="gateway" target="1.8" />
+      <module name="common" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client1" options="-parameters" />
       <module name="client2" options="-parameters" />
+      <module name="common" options="" />
       <module name="gateway" options="-parameters" />
     </option>
   </component>

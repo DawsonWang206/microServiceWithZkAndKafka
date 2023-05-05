@@ -27,7 +27,7 @@ public class TestController {
     }
     @PostMapping("/entity")
     public ResponseEntity<Object> doEntity(CustomEntitySample entitySample) {
-        return ResponseEntity.ok(null);
+        return ResponseEntity.ok(entitySample);
     }
 
 }

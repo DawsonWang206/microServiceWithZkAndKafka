@@ -11,8 +11,8 @@
     <groupId>com.dawson</groupId>
     <artifactId>client1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>config</name>
-    <description>config</description>
+    <name>client1</name>
+    <description>client1</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2021.0.6</spring-cloud.version>

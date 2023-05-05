@@ -3,6 +3,12 @@ spring:
     import: zookeeper:120.27.193.111:2181
   application:
     name: cloud-client1
+  kafka:
+    bootstrap-servers: 120.27.193.111:9092
+  redis:
+    host: 120.27.193.111
+    password: redis132154
+    port: 6379
 
 server:
   port: 8091

@@ -1,21 +1,23 @@
 package com.dawson.client1.feign;
 
 import com.dawson.client1.dto.entity.CustomEntitySample;
+import feign.HeaderMap;
+import feign.Headers;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.messaging.handler.annotation.Header;
+import org.springframework.web.bind.annotation.*;
 
 @FeignClient(name = "cloud-client2", path = "/client2/api")
 public interface Feign1 {
     @GetMapping("/test/hello")
     String doHello();
 
-    @GetMapping("/id")
-    CustomEntitySample feinSeekEntity(Integer id);
+    @RequestMapping(path = "/test/id", method = RequestMethod.GET)
+    CustomEntitySample feinSeekEntity(@RequestParam Integer id);
 
-    @PostMapping("/entity")
+    @PostMapping("/test/entity")
     ResponseEntity<Object> doEntity(CustomEntitySample sample);
 
 
