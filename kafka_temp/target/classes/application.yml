@@ -1,9 +1,0 @@
-spring:
-  kafka:
-    bootstrap-servers: 120.27.193.111:9092
-  application:
-    name: kafka_temp
-server:
-  port: 8093
-  servlet:
-    context-path: kfk
