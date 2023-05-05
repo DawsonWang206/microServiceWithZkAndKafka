@@ -5,3 +5,5 @@ spring:
     name: kafka_temp
 server:
   port: 8093
+  servlet:
+    context-path: kfk

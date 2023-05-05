@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d5a2f09-1917-42a1-8e82-2bfa378adf86" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka_temp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_temp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_temp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_temp/src/main/java/com/dawson/kafka_temp/KafkaTempApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_temp/src/main/java/com/dawson/kafka_temp/KafkaTempApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_temp/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_temp/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,14 @@
       <recent name="com.dawson.client2.dto.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.KafkaTempApp">
+  <component name="RunManager" selected="应用程序.Sender">
+    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dawson.kafka_temp.runner.Sender" />
+      <module name="kafka_temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.dawson.common.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dawson.common.Main" />
       <module name="common" />
@@ -155,10 +161,12 @@
       <item itemvalue="Spring Boot.Client2Application" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.KafkaTempApp" />
+      <item itemvalue="应用程序.Sender" />
       <item itemvalue="应用程序.com.dawson.common.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Sender" />
         <item itemvalue="Spring Boot.KafkaTempApp" />
         <item itemvalue="应用程序.com.dawson.common.Main" />
       </list>

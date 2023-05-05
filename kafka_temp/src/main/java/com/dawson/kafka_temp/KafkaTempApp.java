@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class KafkaTempApp {
     public static void main(String[] args) {
         SpringApplication.run(KafkaTempApp.class, args);
