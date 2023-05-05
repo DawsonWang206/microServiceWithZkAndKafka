@@ -36,6 +36,7 @@
     <module>client1</module>
     <module>client2</module>
     <module>gateway</module>
+    <module>kafka_temp</module>
   </modules>
 
 </project>
