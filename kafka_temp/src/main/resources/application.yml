@@ -1,6 +1,6 @@
 spring:
   kafka:
-    bootstrap-servers: 120.27.193.111:9092
+    bootstrap-servers: 127.0.0.1:9092
   application:
     name: kafka_temp
 server:

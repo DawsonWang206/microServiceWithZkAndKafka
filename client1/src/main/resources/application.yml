@@ -1,12 +1,12 @@
 spring:
   config:
-    import: zookeeper:120.27.193.111:2181
+    import: zookeeper:127.0.0.1:2181
   application:
     name: cloud-client1
   profiles:
     active: dev
   kafka:
-    bootstrap-servers: 120.27.193.111:9092
+    bootstrap-servers: 127.0.0.1:9092
     consumer:
       key-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
@@ -29,8 +29,8 @@ spring:
         profile-separator: "::"
 
   redis:
-    host: 120.27.193.111
-    password: redis132154
+    host: 1127.0.0.1
+    password:
     port: 6379
 
 server:
