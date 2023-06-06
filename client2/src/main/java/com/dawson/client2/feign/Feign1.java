@@ -1,8 +1,8 @@
 package com.dawson.client2.feign;
 
+import com.dawson.client2.common.response.R;
 import com.dawson.client2.dto.entity.CustomEntitySample;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +17,7 @@ public interface Feign1 {
     CustomEntitySample feinSeekEntity(@RequestParam Integer id);
 
     @PostMapping("/test/entity")
-    ResponseEntity<Object> doEntity(CustomEntitySample sample);
+    R doEntity(CustomEntitySample sample);
 
 
 }

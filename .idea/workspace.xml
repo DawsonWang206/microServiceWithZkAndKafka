@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3d5a2f09-1917-42a1-8e82-2bfa378adf86" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka_temp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_temp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka_temp/src/main/java/com/dawson/kafka_temp/KafkaTempApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_temp/src/main/java/com/dawson/kafka_temp/KafkaTempApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka_temp/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_temp/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/Client1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/Client1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/feign/Feign1.java" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/feign/Feign1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/kfklistener/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/kfklistener/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/schedule/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/main/java/com/dawson/client1/schedule/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/src/main/java/com/dawson/client2/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client2/src/main/java/com/dawson/client2/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/src/main/java/com/dawson/client2/feign/Feign1.java" beforeDir="false" afterPath="$PROJECT_DIR$/client2/src/main/java/com/dawson/client2/feign/Feign1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/src/main/java/com/dawson/client2/scheduler/TestScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/client2/src/main/java/com/dawson/client2/scheduler/TestScheduler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +60,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2P7jEgbzRLhDC2nP8gnDMyKkfOm" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -72,7 +82,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/个人/java/cloudDemo/cloudDemo",
+    "last_opened_file_path": "D:/工作/沃尔沃淘宝小程序特别版/volvo_taobao_app_special",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,7 +92,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "20402c340f7389a8442899cbb5bc713b",
+    "spring.configuration.checksum": "5ccd689e8d51441637e2d5a91e7ac444",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -105,7 +115,7 @@
       <recent name="com.dawson.client2.dto.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Sender">
+  <component name="RunManager" selected="Spring Boot.Client1Application">
     <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dawson.kafka_temp.runner.Sender" />
       <module name="kafka_temp" />
@@ -116,6 +126,25 @@
     <configuration name="com.dawson.common.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dawson.common.Main" />
       <module name="common" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperConfigTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client1" />
+      <option name="PACKAGE_NAME" value="com.dawson.config" />
+      <option name="MAIN_CLASS_NAME" value="com.dawson.config.ZookeeperConfigTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperConfigTests.testZkConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client1" />
+      <option name="PACKAGE_NAME" value="com.dawson.config" />
+      <option name="MAIN_CLASS_NAME" value="com.dawson.config.ZookeeperConfigTests" />
+      <option name="METHOD_NAME" value="testZkConfig" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,6 +185,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.ZookeeperConfigTests" />
+      <item itemvalue="JUnit.ZookeeperConfigTests.testZkConfig" />
       <item itemvalue="Spring Boot.Main" />
       <item itemvalue="Spring Boot.Client1Application" />
       <item itemvalue="Spring Boot.Client2Application" />
@@ -166,6 +197,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZookeeperConfigTests.testZkConfig" />
+        <item itemvalue="JUnit.ZookeeperConfigTests" />
         <item itemvalue="应用程序.Sender" />
         <item itemvalue="Spring Boot.KafkaTempApp" />
         <item itemvalue="应用程序.com.dawson.common.Main" />
@@ -196,5 +229,15 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="application.yml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

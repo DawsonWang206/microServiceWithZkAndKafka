@@ -1,7 +1,7 @@
 package com.dawson.client2.controller;
+import com.dawson.client2.common.response.R;
 import com.dawson.client2.dto.entity.CustomEntitySample;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,8 +26,8 @@ public class TestController {
         return entity;
     }
     @PostMapping("/entity")
-    public ResponseEntity<Object> doEntity(CustomEntitySample entitySample) {
-        return ResponseEntity.ok(entitySample);
+    public R doEntity(CustomEntitySample entitySample) {
+        return R.ok().put("entity", entitySample);
     }
 
 }

@@ -3,8 +3,31 @@ spring:
     import: zookeeper:120.27.193.111:2181
   application:
     name: cloud-client1
+  profiles:
+    active: dev
   kafka:
     bootstrap-servers: 120.27.193.111:9092
+    consumer:
+      key-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: "*"
+        max:
+          poll:
+            interval:
+              ms: 86400000 * 100
+        spring.deserializer.key.delegate.class: org.apache.kafka.common.serialization.StringDeserializer
+        spring.deserializer.value.delegate.class: org.springframework.kafka.support.serializer.JsonDeserializer
+  cloud:
+    zookeeper:
+      config:
+        enabled: true
+        default-context: application
+        profile-separator: "::"
+
   redis:
     host: 120.27.193.111
     password: redis132154
