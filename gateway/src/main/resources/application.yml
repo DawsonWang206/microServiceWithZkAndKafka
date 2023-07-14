@@ -1,6 +1,17 @@
 spring:
   application:
-    name: cloud-client1
+    name: cloud-gateway
+  config:
+    import: optional:zookeeper:127.0.0.1:2181
+  cloud:
+    zookeeper:
+      config:
+        enabled: true
+        root: configuration
+        defaultContext: apps
+        profileOperator: '::'
 
 server:
   port: 8093
+  servlet:
+    context-path: /app

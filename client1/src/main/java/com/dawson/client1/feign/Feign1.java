@@ -7,7 +7,7 @@ import feign.Headers;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient(name = "cloud-client2", path = "/client2/api")
+@FeignClient(name = "cloud-client2")
 public interface Feign1 {
     @GetMapping("/test/hello")
     String doHello();
